@@ -1,7 +1,7 @@
 # vscodium-distrobox
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
-[![CI](https://github.com/comminutus/vscodium-toolbox/actions/workflows/ci.yaml/badge.svg)](https://github.com/comminutus/vscodium-toolbox/actions/workflows/ci.yaml)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/comminutus/vscodium-toolbox)](https://github.com/comminutus/vscodium-toolbox/releases/latest)
+[![CI](https://github.com/comminutus/vscodium-distrobox/actions/workflows/ci.yaml/badge.svg)](https://github.com/comminutus/vscodium-distrobox/actions/workflows/ci.yaml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/comminutus/vscodium-distrobox)](https://github.com/comminutus/vscodium-distrobox/releases/latest)
 
 
 ## Description
@@ -10,15 +10,14 @@ This is a container image tailored for using [VSCodium](https://github.com/89luc
 
 ## Getting Started
 ```
-distrobox create -i ghcr.io/comminutus/vscodium-distrobox vscodium-distrobox
-distrobox enter vscodium-distrobox
+distrobox create -i ghcr.io/comminutus/vscodium-distrobox vscodium
+distrobox enter vscodium
 codium
 ```
 _or yolo_
 
 ```
-curl https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/create-distrobox.bash | bash
-
+curl -s https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/create-distrobox.bash | bash -c 'eval "$(cat)"'
 ```
 
 ## Usage

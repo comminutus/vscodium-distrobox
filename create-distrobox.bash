@@ -3,7 +3,7 @@ set -euo pipefail
 
 this_dir="$(dirname "$(realpath "$0")")"
 image=ghcr.io/comminutus/vscodium-distrobox
-name=vscodium-distrobox
+name=vscodium
 codium_bin_path="$HOME/.local/bin/codium"
 codium_bin_url=https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/codium.sh
 
