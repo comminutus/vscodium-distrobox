@@ -88,5 +88,12 @@ fi
 # Install FluxCD
 curl -s https://fluxcd.io/install.sh | bash
 
+# Install Starship
+export nerd_font_name=IntoneMono
+export github_api=https://api.github.com
+export repo=ryanoasis/nerd-fonts
+curl -sS https://starship.rs/install.sh | sh -s -- -y
+ 
+# Cleanup packages
 dnf clean all
 
