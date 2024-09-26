@@ -8,7 +8,7 @@ codium_bin_path="$HOME/.local/bin/codium"
 codium_bin_url=https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/codium.sh
 
 
-distrobox create -i "$image" "$name"
+distrobox create -p -i "$image" "$name"
 distrobox enter --name "$name" -- distrobox-export --app codium
 distrobox enter --name "$name" -- distrobox-export --bin /usr/bin/codium
 

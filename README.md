@@ -17,7 +17,7 @@ codium
 _or yolo_
 
 ```
-curl https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/create-distrobox.bash
+curl https://raw.githubusercontent.com/comminutus/vscodium-distrobox/master/create-distrobox.bash | bash
 
 ```
 
